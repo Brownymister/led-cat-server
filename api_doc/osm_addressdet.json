@@ -1,0 +1,32 @@
+{
+  "place_id": 128136729,
+  "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+  "osm_type": "way",
+  "osm_id": 83811224,
+  "lat": "52.436029149999996",
+  "lon": "13.260229823615045",
+  "class": "building",
+  "type": "residential",
+  "place_rank": 30,
+  "importance": 9.99999999995449e-06,
+  "addresstype": "building",
+  "name": "",
+  "display_name": "347C, Clayallee, Zehlendorf, Steglitz-Zehlendorf, Berlin, 14169, Deutschland",
+  "address": {
+    "house_number": "347C",
+    "road": "Clayallee",
+    "suburb": "Zehlendorf",
+    "borough": "Steglitz-Zehlendorf",
+    "city": "Berlin",
+    "ISO3166-2-lvl4": "DE-BE",
+    "postcode": "14169",
+    "country": "Deutschland",
+    "country_code": "de"
+  },
+  "boundingbox": [
+    "52.4359573",
+    "52.4360965",
+    "13.2600094",
+    "13.2604502"
+  ]
+}

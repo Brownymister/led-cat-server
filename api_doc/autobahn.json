@@ -1,0 +1,352 @@
+{
+  "roadworks": [
+    {
+      "identifier": "vi-bs.2024-03-15_08-00-00-000.f.devi-zus.2024-03-11_08-00-00-000_059.f.de7",
+      "icon": "123",
+      "isBlocked": "false",
+      "future": false,
+      "extent": "52.308829205813524,13.08945011313932,52.326503128121125,13.105091243007427",
+      "point": "52.308829205813524,13.08945011313932",
+      "startLcPosition": "0",
+      "impact": {
+        "lower": "Saarmund",
+        "upper": "Nuthetal",
+        "symbols": [
+          "SEPARATE",
+          "ARROW_UP",
+          "ARROW_UP",
+          "ARROW_UP",
+          "BORDER_RIGHT",
+          "BREAKDOWN_LANE"
+        ]
+      },
+      "display_type": "ROADWORKS",
+      "subtitle": " Dreieck Nuthetal -> Dreieck Funkturm",
+      "title": "A115 | Nuthetal - Saarmund",
+      "startTimestamp": "2024-03-15T08:00:00+01:00",
+      "coordinate": {
+        "lat": 52.308829205813524,
+        "long": 13.08945011313932
+      },
+      "description": [
+        "Zeitraum dieser Bauphase:",
+        "Beginn: 15.03.2024 um 08:00 Uhr",
+        "Ende: 05.12.2024 um 18:00 Uhr",
+        "(Ende der Gesamtmaßnahme: 05.12.2024)",
+        "",
+        "A115: Dreieck Nuthetal -> Dreieck Funkturm, zwischen 1.1 km hinter AD Nuthetal und 0.8 km vor AS Saarmund",
+        "",
+        "Länge: 2.25 km | Maximale Durchfahrtbreite: 8.45 m",
+        "",
+        "A10 Erneuerung an der Decke"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.089450113,
+            52.308829206
+          ],
+          [
+            13.0895432,
+            52.308973401
+          ],
+          [
+            13.0902131,
+            52.310022401
+          ],
+          [
+            13.0920756,
+            52.312861301
+          ],
+          [
+            13.0923393,
+            52.313222801
+          ],
+          [
+            13.0926362,
+            52.313677501
+          ],
+          [
+            13.0937579,
+            52.315416601
+          ],
+          [
+            13.0939639,
+            52.315715701
+          ],
+          [
+            13.0941871,
+            52.316004301
+          ],
+          [
+            13.0944274,
+            52.316303401
+          ],
+          [
+            13.0946849,
+            52.316570901
+          ],
+          [
+            13.0949681,
+            52.316854301
+          ],
+          [
+            13.0957621,
+            52.317619001
+          ],
+          [
+            13.0962651,
+            52.318103501
+          ],
+          [
+            13.0975368,
+            52.319299701
+          ],
+          [
+            13.0979031,
+            52.319649901
+          ],
+          [
+            13.1006072,
+            52.322247601
+          ],
+          [
+            13.1020285,
+            52.323587801
+          ],
+          [
+            13.1024693,
+            52.324011201
+          ],
+          [
+            13.1046086,
+            52.326044201
+          ],
+          [
+            13.105091243,
+            52.326503128
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "vi-bs.2024-04-02_10-00-00-000.f.de0",
+      "icon": "warnkegel",
+      "isBlocked": "false",
+      "future": true,
+      "extent": "52.34482338785034,13.140781492288493,52.34304673296048,13.140454907533224",
+      "point": "52.34482338785034,13.140781492288493",
+      "startLcPosition": "2",
+      "impact": {
+        "lower": "Saarmund",
+        "upper": "Potsdam-Drewitz",
+        "symbols": [
+          "SEPARATE",
+          "ARROW_UP",
+          "ARROW_UP",
+          "CLOSED",
+          "BORDER_RIGHT",
+          "CLOSED"
+        ]
+      },
+      "display_type": "SHORT_TERM_ROADWORKS",
+      "subtitle": " Dreieck Funkturm -> Dreieck Nuthetal",
+      "title": "A115 | Potsdam-Drewitz - Saarmund",
+      "startTimestamp": "2024-04-02T10:00:00+02:00",
+      "coordinate": {
+        "lat": 52.34482338785034,
+        "long": 13.140781492288493
+      },
+      "description": [
+        "Zeitraum dieser Bauphase:",
+        "Beginn: 02.04.2024 um 10:00 Uhr",
+        "Ende: 02.04.2024 um 16:00 Uhr",
+        "(Ende der Gesamtmaßnahme: 02.04.2024)",
+        "",
+        "A115: Dreieck Funkturm -> Dreieck Nuthetal, zwischen 0.9 km hinter AS Potsdam-Drewitz und 2.3 km vor AS Saarmund",
+        "",
+        "Länge: 0.2 km | Maximale Durchfahrtbreite: 7 m",
+        "",
+        "A115 km 6,0 Arbeiten an Schutzeinrichtungen (023)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.140781492,
+            52.344823388
+          ],
+          [
+            13.1407834,
+            52.344743101
+          ],
+          [
+            13.140714,
+            52.344028401
+          ],
+          [
+            13.1406022,
+            52.343477701
+          ],
+          [
+            13.140454908,
+            52.343046733
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "vi-bs.2024-04-04_08-00-00-000_002.f.de0",
+      "icon": "warnkegel",
+      "isBlocked": "false",
+      "future": true,
+      "extent": "52.37716682619072,13.15001077115927,52.378521080161924,13.149991249954136",
+      "point": "52.37716682619072,13.15001077115927",
+      "startLcPosition": "3",
+      "impact": {
+        "lower": "Parforceheide",
+        "upper": "Potsdam-Babelsberg",
+        "symbols": [
+          "SEPARATE",
+          "CLOSED",
+          "ARROW_UP",
+          "ARROW_UP",
+          "BORDER_RIGHT",
+          "BREAKDOWN_LANE"
+        ]
+      },
+      "display_type": "SHORT_TERM_ROADWORKS",
+      "subtitle": " Dreieck Nuthetal -> Dreieck Funkturm",
+      "title": "A115 | Potsdam-Babelsberg - Parforceheide",
+      "startTimestamp": "2024-04-04T08:00:00+02:00",
+      "coordinate": {
+        "lat": 52.37716682619072,
+        "long": 13.15001077115927
+      },
+      "description": [
+        "Zeitraum dieser Bauphase:",
+        "Beginn: 04.04.2024 um 08:00 Uhr",
+        "Ende: 04.04.2024 um 16:00 Uhr",
+        "(Ende der Gesamtmaßnahme: 04.04.2024)",
+        "",
+        "A115: Dreieck Nuthetal -> Dreieck Funkturm, zwischen 0.5 km hinter AS Potsdam-Babelsberg und 0.6 km vor Parforceheide",
+        "",
+        "Länge: 0.15 km | Maximale Durchfahrtbreite: 7 m",
+        "",
+        "A115 km 9,95 Arbeiten an Schutzeinrichtungen (062)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.150010771,
+            52.377166826
+          ],
+          [
+            13.1499933,
+            52.378076701
+          ],
+          [
+            13.1499873,
+            52.378391101
+          ],
+          [
+            13.14999125,
+            52.37852108
+          ]
+        ]
+      }
+    },
+    {
+      "identifier": "vi-bs.2024-04-04_08-00-00-000_001.f.de0",
+      "icon": "warnkegel",
+      "isBlocked": "false",
+      "future": true,
+      "extent": "52.39009147360799,13.158496595583271,52.390908732792965,13.161095052350202",
+      "point": "52.39009147360799,13.158496595583271",
+      "startLcPosition": "5",
+      "impact": {
+        "lower": "Kleinmachnow",
+        "upper": "Am Stern",
+        "symbols": [
+          "SEPARATE",
+          "CLOSED",
+          "ARROW_UP",
+          "ARROW_UP",
+          "BORDER_RIGHT",
+          "BREAKDOWN_LANE"
+        ]
+      },
+      "display_type": "SHORT_TERM_ROADWORKS",
+      "subtitle": " Dreieck Nuthetal -> Dreieck Funkturm",
+      "title": "A115 | Am Stern - Kleinmachnow",
+      "startTimestamp": "2024-04-04T08:00:00+02:00",
+      "coordinate": {
+        "lat": 52.39009147360799,
+        "long": 13.158496595583271
+      },
+      "description": [
+        "Zeitraum dieser Bauphase:",
+        "Beginn: 04.04.2024 um 08:00 Uhr",
+        "Ende: 04.04.2024 um 16:00 Uhr",
+        "(Ende der Gesamtmaßnahme: 04.04.2024)",
+        "",
+        "A115: Dreieck Nuthetal -> Dreieck Funkturm, zwischen 0.7 km hinter Am Stern und 2.3 km vor AS Kleinmachnow",
+        "",
+        "Länge: 0.2 km | Maximale Durchfahrtbreite: 7 m",
+        "",
+        "A115 km 11,60 Arbeiten an Schutzeinrichtungen (004)"
+      ],
+      "routeRecommendation": [],
+      "footer": [],
+      "lorryParkingFeatureIcons": [],
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.158496596,
+            52.390091474
+          ],
+          [
+            13.1587466,
+            52.390192001
+          ],
+          [
+            13.1591156,
+            52.390333401
+          ],
+          [
+            13.1595448,
+            52.390474801
+          ],
+          [
+            13.1599825,
+            52.390611001
+          ],
+          [
+            13.1604374,
+            52.390736701
+          ],
+          [
+            13.1610554,
+            52.390899101
+          ],
+          [
+            13.161095052,
+            52.390908733
+          ]
+        ]
+      }
+    }
+  ]
+}

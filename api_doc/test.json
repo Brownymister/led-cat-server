@@ -1,0 +1,590 @@
+[
+  {
+    "tripId": "1|354|34|86|8052024",
+    "stop": {
+      "type": "stop",
+      "id": "900000050301",
+      "name": "S Mexikoplatz",
+      "location": {
+        "type": "location",
+        "id": "900050301",
+        "latitude": 52.437162,
+        "longitude": 13.232059
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900050301"
+    },
+    "when": "2024-05-08T17:56:00+02:00",
+    "plannedWhen": "2024-05-08T17:55:00+02:00",
+    "delay": 60,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "prognosed",
+    "direction": "S Wannsee",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "s1",
+      "fahrtNr": "12559",
+      "name": "S1",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 1,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Fahrradmitnahme möglich"
+      },
+      {
+        "id": "221648",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Wegen einer Reparatur an der Strecke in Zehlendorf sowie zwischen Schlachtensee und Mexikoplatz und nach einer ärztlichen Versorgung eines Fahrgastes in Humboldthain bitte mit Verspätungen und einzelnen Zugausfällen rechnen. Dauer unbekannt. Wir bitten um Entschuldigung.\n<a href=\"https://sbahn.berlin/fahren/bauen-stoerung/\" target=\"_blank\" rel=\"noopener\">Information</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 32,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-05-08T06:00:00+02:00",
+        "validUntil": "2024-05-08T23:59:00+02:00",
+        "modified": "2024-05-08T14:01:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "900000053301",
+      "name": "S Wannsee",
+      "location": {
+        "type": "location",
+        "id": "900053301",
+        "latitude": 52.421728,
+        "longitude": 13.178932
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": true,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900053301"
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.440381,
+      "longitude": 13.224382
+    }
+  },
+  {
+    "tripId": "1|96642|5|86|8052024",
+    "stop": {
+      "type": "stop",
+      "id": "900000050301",
+      "name": "S Mexikoplatz",
+      "location": {
+        "type": "location",
+        "id": "900050301",
+        "latitude": 52.437162,
+        "longitude": 13.232059
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900050301"
+    },
+    "when": "2024-05-08T17:56:00+02:00",
+    "plannedWhen": "2024-05-08T17:55:00+02:00",
+    "delay": 60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": "U Krumme Lanke",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "118",
+      "fahrtNr": "1912",
+      "name": "118",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 118,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "900000050201",
+      "name": "U Krumme Lanke",
+      "location": {
+        "type": "location",
+        "id": "900050201",
+        "latitude": 52.442619,
+        "longitude": 13.240356
+      },
+      "products": {
+        "suburban": false,
+        "subway": true,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900050201"
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.440003,
+      "longitude": 13.236176
+    },
+    "occupancy": "low"
+  },
+  {
+    "tripId": "1|27629|1|86|8052024",
+    "stop": {
+      "type": "stop",
+      "id": "900000050301",
+      "name": "S Mexikoplatz",
+      "location": {
+        "type": "location",
+        "id": "900050301",
+        "latitude": 52.437162,
+        "longitude": 13.232059
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900050301"
+    },
+    "when": "2024-05-08T17:58:00+02:00",
+    "plannedWhen": "2024-05-08T17:58:00+02:00",
+    "delay": 0,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": "Potsdam, Stern-Center",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "118",
+      "fahrtNr": "18573",
+      "name": "118",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 118,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "900000230400",
+      "name": "Potsdam, Stern-Center/Nuthestr.",
+      "location": {
+        "type": "location",
+        "id": "900230400",
+        "latitude": 52.372305,
+        "longitude": 13.132314
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:12054:900230400"
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.440291,
+      "longitude": 13.236472
+    },
+    "occupancy": "high"
+  },
+  {
+    "tripId": "1|10|39|86|8052024",
+    "stop": {
+      "type": "stop",
+      "id": "900000050301",
+      "name": "S Mexikoplatz",
+      "location": {
+        "type": "location",
+        "id": "900050301",
+        "latitude": 52.437162,
+        "longitude": 13.232059
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900050301"
+    },
+    "when": "2024-05-08T18:00:00+02:00",
+    "plannedWhen": "2024-05-08T18:00:00+02:00",
+    "delay": 0,
+    "platform": "2",
+    "plannedPlatform": "2",
+    "prognosisType": "calculated",
+    "direction": "S Frohnau",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "s1",
+      "fahrtNr": "12278",
+      "name": "S1",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 1,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Fahrradmitnahme möglich"
+      },
+      {
+        "id": "221648",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Wegen einer Reparatur an der Strecke in Zehlendorf sowie zwischen Schlachtensee und Mexikoplatz und nach einer ärztlichen Versorgung eines Fahrgastes in Humboldthain bitte mit Verspätungen und einzelnen Zugausfällen rechnen. Dauer unbekannt. Wir bitten um Entschuldigung.\n<a href=\"https://sbahn.berlin/fahren/bauen-stoerung/\" target=\"_blank\" rel=\"noopener\">Information</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 32,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-05-08T06:00:00+02:00",
+        "validUntil": "2024-05-08T23:59:00+02:00",
+        "modified": "2024-05-08T14:01:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "900000092201",
+      "name": "S Frohnau",
+      "location": {
+        "type": "location",
+        "id": "900092201",
+        "latitude": 52.632956,
+        "longitude": 13.289563
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900092201"
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.436012,
+      "longitude": 13.201972
+    }
+  },
+  {
+    "tripId": "1|27657|6|86|8052024",
+    "stop": {
+      "type": "stop",
+      "id": "900000050301",
+      "name": "S Mexikoplatz",
+      "location": {
+        "type": "location",
+        "id": "900050301",
+        "latitude": 52.437162,
+        "longitude": 13.232059
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900050301"
+    },
+    "when": "2024-05-08T18:04:00+02:00",
+    "plannedWhen": "2024-05-08T18:05:00+02:00",
+    "delay": -60,
+    "platform": null,
+    "plannedPlatform": null,
+    "prognosisType": "prognosed",
+    "direction": "Rathaus Zehlendorf",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "118",
+      "fahrtNr": "18537",
+      "name": "118",
+      "public": true,
+      "adminCode": "BVB",
+      "productName": "Bus",
+      "mode": "bus",
+      "product": "bus",
+      "operator": {
+        "type": "operator",
+        "id": "berliner-verkehrsbetriebe",
+        "name": "Berliner Verkehrsbetriebe"
+      },
+      "symbol": null,
+      "nr": 118,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "900000049258",
+      "name": "Rathaus Zehlendorf",
+      "location": {
+        "type": "location",
+        "id": "900049258",
+        "latitude": 52.433477,
+        "longitude": 13.258127
+      },
+      "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900049258"
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.428083,
+      "longitude": 13.218035
+    },
+    "occupancy": "low"
+  },
+  {
+    "tripId": "1|83|33|86|8052024",
+    "stop": {
+      "type": "stop",
+      "id": "900000050301",
+      "name": "S Mexikoplatz",
+      "location": {
+        "type": "location",
+        "id": "900050301",
+        "latitude": 52.437162,
+        "longitude": 13.232059
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+      },
+      "stationDHID": "de:11000:900050301"
+    },
+    "when": "2024-05-08T18:09:00+02:00",
+    "plannedWhen": "2024-05-08T18:05:00+02:00",
+    "delay": 240,
+    "platform": "1",
+    "plannedPlatform": "1",
+    "prognosisType": "prognosed",
+    "direction": "S Wannsee",
+    "provenance": null,
+    "line": {
+      "type": "line",
+      "id": "s1",
+      "fahrtNr": "12117",
+      "name": "S1",
+      "public": true,
+      "adminCode": "DBS",
+      "productName": "S",
+      "mode": "train",
+      "product": "suburban",
+      "operator": {
+        "type": "operator",
+        "id": "s-bahn-berlin-gmbh",
+        "name": "S-Bahn Berlin GmbH"
+      },
+      "symbol": "S",
+      "nr": 1,
+      "metro": false,
+      "express": false,
+      "night": false
+    },
+    "remarks": [
+      {
+        "type": "hint",
+        "code": "FK",
+        "text": "Fahrradmitnahme möglich"
+      },
+      {
+        "id": "221648",
+        "type": "warning",
+        "summary": "Störung.",
+        "text": "Wegen einer Reparatur an der Strecke in Zehlendorf sowie zwischen Schlachtensee und Mexikoplatz und nach einer ärztlichen Versorgung eines Fahrgastes in Humboldthain bitte mit Verspätungen und einzelnen Zugausfällen rechnen. Dauer unbekannt. Wir bitten um Entschuldigung.\n<a href=\"https://sbahn.berlin/fahren/bauen-stoerung/\" target=\"_blank\" rel=\"noopener\">Information</a>",
+        "icon": {
+          "type": "HIM2",
+          "title": null
+        },
+        "priority": 32,
+        "products": {
+          "suburban": true,
+          "subway": false,
+          "tram": false,
+          "bus": false,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "company": "VBB",
+        "categories": [
+          2
+        ],
+        "validFrom": "2024-05-08T06:00:00+02:00",
+        "validUntil": "2024-05-08T23:59:00+02:00",
+        "modified": "2024-05-08T14:01:00+02:00"
+      }
+    ],
+    "origin": null,
+    "destination": {
+      "type": "stop",
+      "id": "900000053301",
+      "name": "S Wannsee",
+      "location": {
+        "type": "location",
+        "id": "900053301",
+        "latitude": 52.421728,
+        "longitude": 13.178932
+      },
+      "products": {
+        "suburban": true,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": true,
+        "express": true,
+        "regional": true
+      },
+      "stationDHID": "de:11000:900053301"
+    },
+    "currentTripPosition": {
+      "type": "location",
+      "latitude": 52.463429,
+      "longitude": 13.332342
+    }
+  }
+]

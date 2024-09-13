@@ -1,0 +1,212 @@
+[
+  {
+    "type": "stop",
+    "id": "900050282",
+    "name": "U Onkel Toms Hütte (Berlin)",
+    "location": {
+      "type": "location",
+      "id": "900050282",
+      "latitude": 52.450143,
+      "longitude": 13.254019
+    },
+    "products": {
+      "suburban": false,
+      "subway": true,
+      "tram": false,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:11000:900050282"
+  },
+  {
+    "type": "stop",
+    "id": "900050202",
+    "name": "Onkel-Tom-Str. (Berlin)",
+    "location": {
+      "type": "location",
+      "id": "900050202",
+      "latitude": 52.450026,
+      "longitude": 13.251089
+    },
+    "products": {
+      "suburban": false,
+      "subway": true,
+      "tram": false,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:11000:900050202"
+  },
+  {
+    "type": "stop",
+    "id": "900350321",
+    "name": "Bernau, Edelweißstraße",
+    "location": {
+      "type": "location",
+      "id": "900350321",
+      "latitude": 52.682262,
+      "longitude": 13.570386
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": false,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:12060:900350321"
+  },
+  {
+    "type": "stop",
+    "id": "900140021",
+    "name": "Rennbahnstraße/Roelckestraße (Berlin)",
+    "location": {
+      "type": "location",
+      "id": "900140021",
+      "latitude": 52.561097,
+      "longitude": 13.456888
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": true,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:11000:900140021"
+  },
+  {
+    "type": "stop",
+    "id": "900080452",
+    "name": "Onkel-Herse-Str. (Berlin)",
+    "location": {
+      "type": "location",
+      "id": "900080452",
+      "latitude": 52.448237,
+      "longitude": 13.453966
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": false,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:11000:900080452"
+  },
+  {
+    "type": "stop",
+    "id": "900120515",
+    "name": "Straßmannstr. (Berlin)",
+    "location": {
+      "type": "location",
+      "id": "900120515",
+      "latitude": 52.52274,
+      "longitude": 13.450146
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": true,
+      "bus": false,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:11000:900120515"
+  },
+  {
+    "type": "stop",
+    "id": "900470205",
+    "name": "Cottbus, Marienstraße/Glad House",
+    "location": {
+      "type": "location",
+      "id": "900470205",
+      "latitude": 51.753641,
+      "longitude": 14.333453
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": true,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:12052:900470205"
+  },
+  {
+    "type": "stop",
+    "id": "900220078",
+    "name": "Teltow, Neißestr.",
+    "location": {
+      "type": "location",
+      "id": "900220078",
+      "latitude": 52.400307,
+      "longitude": 13.244059
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": false,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:12069:900220078"
+  },
+  {
+    "type": "stop",
+    "id": "900275808",
+    "name": "Brandenburg, Krakauer Landstraße, Siedlung",
+    "location": {
+      "type": "location",
+      "id": "900275808",
+      "latitude": 52.424218,
+      "longitude": 12.58212
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": false,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:12051:900275808"
+  },
+  {
+    "type": "stop",
+    "id": "900220403",
+    "name": "Teltow, Postviertel/Paul-Linke-Str.",
+    "location": {
+      "type": "location",
+      "id": "900220403",
+      "latitude": 52.384297,
+      "longitude": 13.281598
+    },
+    "products": {
+      "suburban": false,
+      "subway": false,
+      "tram": false,
+      "bus": true,
+      "ferry": false,
+      "express": false,
+      "regional": false
+    },
+    "stationDHID": "de:12069:900220403"
+  }
+]

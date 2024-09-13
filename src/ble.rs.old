@@ -1,0 +1,89 @@
+use btleplug::api::{
+    bleuuid::uuid_from_u16, Central, Manager as _, Peripheral as _, ScanFilter, WriteType,
+};
+use btleplug::platform::{Adapter, Manager, Peripheral};
+
+pub async fn get_temperature() -> Result<f64, Box<dyn Error>> {
+    let manager = Manager::new().await.unwrap();
+
+    // get the first bluetooth adapter
+    let adapters = manager.adapters().await?;
+    let central = adapters.into_iter().nth(0).unwrap();
+
+    // start scanning for devices
+    central.start_scan(ScanFilter::default()).await?;
+    // instead of waiting, you can use central.events() to get a stream which will
+    // notify you of new devices, for an example of that see examples/event_driven_discovery.rs
+    time::sleep(Duration::from_secs(2)).await;
+
+    // find the device we're interested in
+    let weather_cat = find_weather_cat(&central).await.unwrap();
+
+    // connect to the device
+    weather_cat.connect().await?;
+
+        // discover services and characteristics
+    weather_cat.discover_services().await?;
+
+    // find the characteristic we want
+    let chars = weather_cat.characteristics();
+    chars.iter().for_each(|c| println!("{}", c));
+    let cmd_char = chars.iter().find(|c| c.uuid == Uuid::from_str("00002a6e-0000-1000-8000-00805f9b34fb").unwrap()).unwrap();
+    let res = weather_cat.read(cmd_char).await.unwrap();
+    println!("{:X}", res[0]);
+    println!("{:X}", res[1]);
+    // reverse bc of most significant bit
+    let out = convert_little_endian(format!("{:X}{:X}",res[1],res[0]));
+    println!("{:?}", out);
+    return Ok(());
+}
+
+fn replace_key(key: &str) -> i32 {
+    return match key {
+        "A" => 10,
+        "B" => 11,
+        "C" => 12,
+        "D" => 13,
+        "E" => 14,
+        "F" => 15,
+        _ => key.to_string().parse::<i32>().unwrap()
+    };
+}
+
+fn convert_little_endian(input: String) -> f64 {
+    let mut c = String::new();
+    // for i, x in enumerate(b + a):
+    for (i, x) in input.chars().enumerate() {
+        c = c + &replace_key(&x.to_string()).to_string()+ " ";
+    }
+
+    println!("{:?}",c);
+    let l: Vec<&str> = c.split_whitespace().filter(|s|!s.is_empty()).collect();
+    println!("{:?}",l);
+    let mut result = 0.0;
+    let len = l.len();
+    for (i, x) in l.into_iter().enumerate() {
+        let y = (len - i - 1) as u32;
+        println!("{}", x);
+        result = result + (x.parse::<f64>().unwrap() * (isize::pow(16, y)) as f64);
+    }
+    return result / 100.0;
+
+}
+
+async fn find_weather_cat(central: &Adapter) -> Option<Peripheral> {
+    for p in central.peripherals().await.unwrap() {
+        println!("{:?}", p.properties().await.unwrap().unwrap().local_name);
+        if p.properties()
+            .await
+            .unwrap()
+            .unwrap()
+            .local_name
+            .iter()
+            .any(|name| name.contains("WeatherCat"))
+        {
+            return Some(p);
+        }
+    }
+    None
+}

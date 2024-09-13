@@ -1,0 +1,327 @@
+{
+  "departures": [
+    {
+      "tripId": "1|45581|1|86|20022024",
+      "stop": {
+        "type": "stop",
+        "id": "900050282",
+        "name": "U Onkel Toms Hütte (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900050282",
+          "latitude": 52.450143,
+          "longitude": 13.254019
+        },
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900050282"
+      },
+      "when": "2024-02-20T17:19:00+01:00",
+      "plannedWhen": "2024-02-20T17:17:00+01:00",
+      "delay": 120,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": "prognosed",
+      "direction": "Krumme Lanke",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "u3",
+        "fahrtNr": "13588",
+        "name": "U3",
+        "public": true,
+        "adminCode": "BVU---",
+        "productName": "U",
+        "mode": "train",
+        "product": "subway",
+        "operator": {
+          "type": "operator",
+          "id": "berliner-verkehrsbetriebe",
+          "name": "Berliner Verkehrsbetriebe"
+        }
+      },
+      "remarks": [
+        {
+          "type": "hint",
+          "code": "FK",
+          "text": "Bicycle conveyance"
+        }
+      ],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "900050201",
+        "name": "U Krumme Lanke (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900050201",
+          "latitude": 52.442619,
+          "longitude": 13.240356
+        },
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900050201"
+      },
+      "currentTripPosition": {
+        "type": "location",
+        "latitude": 52.450278,
+        "longitude": 13.279629
+      },
+      "occupancy": "low"
+    },
+    {
+      "tripId": "1|45611|5|86|20022024",
+      "stop": {
+        "type": "stop",
+        "id": "900050282",
+        "name": "U Onkel Toms Hütte (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900050282",
+          "latitude": 52.450143,
+          "longitude": 13.254019
+        },
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900050282"
+      },
+      "when": "2024-02-20T17:19:00+01:00",
+      "plannedWhen": "2024-02-20T17:19:00+01:00",
+      "delay": 0,
+      "platform": "2",
+      "plannedPlatform": "2",
+      "prognosisType": "prognosed",
+      "direction": "Warschauer Straße",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "u3",
+        "fahrtNr": "13247",
+        "name": "U3",
+        "public": true,
+        "adminCode": "BVU---",
+        "productName": "U",
+        "mode": "train",
+        "product": "subway",
+        "operator": {
+          "type": "operator",
+          "id": "berliner-verkehrsbetriebe",
+          "name": "Berliner Verkehrsbetriebe"
+        }
+      },
+      "remarks": [
+        {
+          "type": "hint",
+          "code": "FK",
+          "text": "Bicycle conveyance"
+        }
+      ],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "900120004",
+        "name": "S+U Warschauer Str. (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900120004",
+          "latitude": 52.505768,
+          "longitude": 13.449157
+        },
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900120004"
+      },
+      "occupancy": "low"
+    },
+    {
+      "tripId": "1|45580|61|86|20022024",
+      "stop": {
+        "type": "stop",
+        "id": "900050282",
+        "name": "U Onkel Toms Hütte (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900050282",
+          "latitude": 52.450143,
+          "longitude": 13.254019
+        },
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900050282"
+      },
+      "when": "2024-02-20T17:21:00+01:00",
+      "plannedWhen": "2024-02-20T17:21:00+01:00",
+      "delay": 0,
+      "platform": "1",
+      "plannedPlatform": "1",
+      "prognosisType": "calculated",
+      "direction": "Krumme Lanke",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "u3",
+        "fahrtNr": "13589",
+        "name": "U3",
+        "public": true,
+        "adminCode": "BVU---",
+        "productName": "U",
+        "mode": "train",
+        "product": "subway",
+        "operator": {
+          "type": "operator",
+          "id": "berliner-verkehrsbetriebe",
+          "name": "Berliner Verkehrsbetriebe"
+        }
+      },
+      "remarks": [
+        {
+          "type": "hint",
+          "code": "FK",
+          "text": "Bicycle conveyance"
+        }
+      ],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "900050201",
+        "name": "U Krumme Lanke (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900050201",
+          "latitude": 52.442619,
+          "longitude": 13.240356
+        },
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900050201"
+      },
+      "currentTripPosition": {
+        "type": "location",
+        "latitude": 52.457136,
+        "longitude": 13.289329
+      },
+      "occupancy": "low"
+    },
+    {
+      "tripId": "1|45612|4|86|20022024",
+      "stop": {
+        "type": "stop",
+        "id": "900050282",
+        "name": "U Onkel Toms Hütte (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900050282",
+          "latitude": 52.450143,
+          "longitude": 13.254019
+        },
+        "products": {
+          "suburban": false,
+          "subway": true,
+          "tram": false,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900050282"
+      },
+      "when": "2024-02-20T17:25:00+01:00",
+      "plannedWhen": "2024-02-20T17:25:00+01:00",
+      "delay": 0,
+      "platform": "2",
+      "plannedPlatform": "2",
+      "prognosisType": "prognosed",
+      "direction": "Warschauer Straße",
+      "provenance": null,
+      "line": {
+        "type": "line",
+        "id": "u3",
+        "fahrtNr": "13248",
+        "name": "U3",
+        "public": true,
+        "adminCode": "BVU---",
+        "productName": "U",
+        "mode": "train",
+        "product": "subway",
+        "operator": {
+          "type": "operator",
+          "id": "berliner-verkehrsbetriebe",
+          "name": "Berliner Verkehrsbetriebe"
+        }
+      },
+      "remarks": [
+        {
+          "type": "hint",
+          "code": "FK",
+          "text": "Bicycle conveyance"
+        }
+      ],
+      "origin": null,
+      "destination": {
+        "type": "stop",
+        "id": "900120004",
+        "name": "S+U Warschauer Str. (Berlin)",
+        "location": {
+          "type": "location",
+          "id": "900120004",
+          "latitude": 52.505768,
+          "longitude": 13.449157
+        },
+        "products": {
+          "suburban": true,
+          "subway": true,
+          "tram": true,
+          "bus": true,
+          "ferry": false,
+          "express": false,
+          "regional": false
+        },
+        "stationDHID": "de:11000:900120004"
+      },
+      "occupancy": "low"
+    }
+  ],
+  "realtimeDataUpdatedAt": 1708445737
+}

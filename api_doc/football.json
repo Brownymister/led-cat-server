@@ -1,0 +1,580 @@
+[
+  {
+    "matchID": 69385,
+    "matchDateTime": "2024-07-05T18:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4708,
+    "leagueName": "UEFA EURO 2024",
+    "leagueSeason": 2024,
+    "leagueShortcut": "em",
+    "matchDateTimeUTC": "2024-07-05T16:00:00Z",
+    "group": {
+      "groupName": "Viertelfinale",
+      "groupOrderID": 5,
+      "groupID": 44158
+    },
+    "team1": {
+      "teamId": 170,
+      "teamName": "Spanien",
+      "shortName": "ESP",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/ESP.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 3196,
+      "teamName": "Deutschland",
+      "shortName": "DEU",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/150px-Flag_of_Germany.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2024-07-07T15:56:32.993",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 111171,
+        "resultName": "Halbzeitergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis zur Halbzeitpause"
+      },
+      {
+        "resultID": 111172,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 111173,
+        "resultName": "nach Verlängerung",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 3,
+        "resultTypeID": 4,
+        "resultDescription": "Ergebnis nach Ende der Verlängerung"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 115856,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 89,
+        "goalGetterID": 18298,
+        "goalGetterName": "Florian Wirtz",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115854,
+        "scoreTeam1": 1,
+        "scoreTeam2": 0,
+        "matchMinute": 51,
+        "goalGetterID": 19759,
+        "goalGetterName": "Dani Olmo",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115858,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 119,
+        "goalGetterID": 22844,
+        "goalGetterName": "Mikel Merino",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": "n. V"
+      }
+    ],
+    "location": {
+      "locationID": 493,
+      "locationCity": "Stuttgart",
+      "locationStadium": "Mercedes-Benz Arena"
+    },
+    "numberOfViewers": 54000
+  },
+  {
+    "matchID": 69386,
+    "matchDateTime": "2024-07-05T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4708,
+    "leagueName": "UEFA EURO 2024",
+    "leagueSeason": 2024,
+    "leagueShortcut": "em",
+    "matchDateTimeUTC": "2024-07-05T19:00:00Z",
+    "group": {
+      "groupName": "Viertelfinale",
+      "groupOrderID": 5,
+      "groupID": 44158
+    },
+    "team1": {
+      "teamId": 3198,
+      "teamName": "Portugal",
+      "shortName": "PRT",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/2000px-Flag_of_Portugal.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 144,
+      "teamName": "Frankreich",
+      "shortName": "FRA",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/FRA.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2024-07-07T15:53:36.61",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 111176,
+        "resultName": "Halbzeitergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis zur Halbzeitpause"
+      },
+      {
+        "resultID": 111177,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 111180,
+        "resultName": "nach Verlängerung",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 3,
+        "resultTypeID": 4,
+        "resultDescription": "Ergebnis nach Ende der Verlängerung"
+      },
+      {
+        "resultID": 111179,
+        "resultName": "nach Elfmeterschießen",
+        "pointsTeam1": 3,
+        "pointsTeam2": 5,
+        "resultOrderID": 4,
+        "resultTypeID": 5,
+        "resultDescription": "Ergebnis nach Abschluss des Elfmeterschiessens"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 115936,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 120,
+        "goalGetterID": 1945,
+        "goalGetterName": "Cristiano Ronaldo",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115935,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 120,
+        "goalGetterID": 16100,
+        "goalGetterName": "Ousmane Dembelé",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115938,
+        "scoreTeam1": 2,
+        "scoreTeam2": 2,
+        "matchMinute": 120,
+        "goalGetterID": 17188,
+        "goalGetterName": "Bernardo Silva",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115937,
+        "scoreTeam1": 1,
+        "scoreTeam2": 2,
+        "matchMinute": 120,
+        "goalGetterID": 22861,
+        "goalGetterName": "Youssouf Fofana",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115939,
+        "scoreTeam1": 2,
+        "scoreTeam2": 3,
+        "matchMinute": 120,
+        "goalGetterID": 22862,
+        "goalGetterName": "Jules Koundé",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115940,
+        "scoreTeam1": 2,
+        "scoreTeam2": 4,
+        "matchMinute": 120,
+        "goalGetterID": 22863,
+        "goalGetterName": "Bradley Barcola",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115941,
+        "scoreTeam1": 3,
+        "scoreTeam2": 4,
+        "matchMinute": 120,
+        "goalGetterID": 22864,
+        "goalGetterName": "Nuno Mendes",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115942,
+        "scoreTeam1": 3,
+        "scoreTeam2": 5,
+        "matchMinute": 120,
+        "goalGetterID": 22865,
+        "goalGetterName": "Theo Hernandez",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
+    "location": {
+      "locationID": 1030,
+      "locationCity": "Hamburg",
+      "locationStadium": "Volksparkstadion"
+    },
+    "numberOfViewers": 47789
+  },
+  {
+    "matchID": 69387,
+    "matchDateTime": "2024-07-06T18:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4708,
+    "leagueName": "UEFA EURO 2024",
+    "leagueSeason": 2024,
+    "leagueShortcut": "em",
+    "matchDateTimeUTC": "2024-07-06T16:00:00Z",
+    "group": {
+      "groupName": "Viertelfinale",
+      "groupOrderID": 5,
+      "groupID": 44158
+    },
+    "team1": {
+      "teamId": 3197,
+      "teamName": "England",
+      "shortName": "ENG",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 38,
+      "teamName": "Schweiz",
+      "shortName": "CHE",
+      "teamIconUrl": "https://img.uefa.com/imgml/flags/140x140/SUI.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2024-07-07T15:57:00.667",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 111187,
+        "resultName": "Halbzeitergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 0,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis zur Halbzeitpause"
+      },
+      {
+        "resultID": 111188,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 111196,
+        "resultName": "nach Verlängerung",
+        "pointsTeam1": 1,
+        "pointsTeam2": 1,
+        "resultOrderID": 3,
+        "resultTypeID": 4,
+        "resultDescription": "Ergebnis nach Ende der Verlängerung"
+      },
+      {
+        "resultID": 111190,
+        "resultName": "nach Elfmeterschießen",
+        "pointsTeam1": 6,
+        "pointsTeam2": 4,
+        "resultOrderID": 4,
+        "resultTypeID": 5,
+        "resultDescription": "Ergebnis nach Abschluss des Elfmeterschiessens"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 115898,
+        "scoreTeam1": 4,
+        "scoreTeam2": 3,
+        "matchMinute": 120,
+        "goalGetterID": 11374,
+        "goalGetterName": "Xherdan Shaqiri",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115896,
+        "scoreTeam1": 3,
+        "scoreTeam2": 2,
+        "matchMinute": 120,
+        "goalGetterID": 15802,
+        "goalGetterName": "Fabian Schär",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115885,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 75,
+        "goalGetterID": 16135,
+        "goalGetterName": "Breel Embolo",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115907,
+        "scoreTeam1": 6,
+        "scoreTeam2": 4,
+        "matchMinute": 120,
+        "goalGetterID": 17278,
+        "goalGetterName": "Trent Alexander-Arnold",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115895,
+        "scoreTeam1": 3,
+        "scoreTeam2": 1,
+        "matchMinute": 120,
+        "goalGetterID": 18081,
+        "goalGetterName": "Jude Bellingham",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115887,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 80,
+        "goalGetterID": 22847,
+        "goalGetterName": "Bukayo Saka",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115897,
+        "scoreTeam1": 4,
+        "scoreTeam2": 2,
+        "matchMinute": 120,
+        "goalGetterID": 22847,
+        "goalGetterName": "Bukayo Saka",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115894,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 120,
+        "goalGetterID": 22849,
+        "goalGetterName": "Cole Palmer",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115906,
+        "scoreTeam1": 5,
+        "scoreTeam2": 4,
+        "matchMinute": 120,
+        "goalGetterID": 22855,
+        "goalGetterName": "Zeki Amdouni",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115899,
+        "scoreTeam1": 5,
+        "scoreTeam2": 3,
+        "matchMinute": 120,
+        "goalGetterID": 22857,
+        "goalGetterName": "Ivan Toney",
+        "isPenalty": true,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
+    "location": {
+      "locationID": 1295,
+      "locationCity": "Düsseldorf",
+      "locationStadium": "Merkur Spielarena"
+    },
+    "numberOfViewers": 46533
+  },
+  {
+    "matchID": 69388,
+    "matchDateTime": "2024-07-06T21:00:00",
+    "timeZoneID": "W. Europe Standard Time",
+    "leagueId": 4708,
+    "leagueName": "UEFA EURO 2024",
+    "leagueSeason": 2024,
+    "leagueShortcut": "em",
+    "matchDateTimeUTC": "2024-07-06T19:00:00Z",
+    "group": {
+      "groupName": "Viertelfinale",
+      "groupOrderID": 5,
+      "groupID": 44158
+    },
+    "team1": {
+      "teamId": 4353,
+      "teamName": "Niederlande",
+      "shortName": "NLD",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/20px-Flag_of_the_Netherlands.svg.png",
+      "teamGroupName": null
+    },
+    "team2": {
+      "teamId": 3205,
+      "teamName": "Türkei",
+      "shortName": "TUR",
+      "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2000px-Flag_of_Turkey.svg.png",
+      "teamGroupName": null
+    },
+    "lastUpdateDateTime": "2024-07-07T15:57:16.047",
+    "matchIsFinished": true,
+    "matchResults": [
+      {
+        "resultID": 111193,
+        "resultName": "Halbzeitergebnis",
+        "pointsTeam1": 0,
+        "pointsTeam2": 1,
+        "resultOrderID": 1,
+        "resultTypeID": 1,
+        "resultDescription": "Ergebnis zur Halbzeitpause"
+      },
+      {
+        "resultID": 111194,
+        "resultName": "Endergebnis",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 2,
+        "resultTypeID": 2,
+        "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+      },
+      {
+        "resultID": 111195,
+        "resultName": "nach Elfmeterschießen",
+        "pointsTeam1": 2,
+        "pointsTeam2": 1,
+        "resultOrderID": 4,
+        "resultTypeID": 5,
+        "resultDescription": "Ergebnis nach Abschluss des Elfmeterschiessens"
+      }
+    ],
+    "goals": [
+      {
+        "goalID": 115914,
+        "scoreTeam1": 1,
+        "scoreTeam2": 1,
+        "matchMinute": 70,
+        "goalGetterID": 15143,
+        "goalGetterName": "Stefan de Vrij",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115916,
+        "scoreTeam1": 2,
+        "scoreTeam2": 1,
+        "matchMinute": 75,
+        "goalGetterID": 22804,
+        "goalGetterName": "Mert Müldür",
+        "isPenalty": false,
+        "isOwnGoal": true,
+        "isOvertime": false,
+        "comment": null
+      },
+      {
+        "goalID": 115934,
+        "scoreTeam1": 0,
+        "scoreTeam2": 1,
+        "matchMinute": 35,
+        "goalGetterID": 22860,
+        "goalGetterName": "Samet Akaydin",
+        "isPenalty": false,
+        "isOwnGoal": false,
+        "isOvertime": false,
+        "comment": null
+      }
+    ],
+    "location": {
+      "locationID": 22,
+      "locationCity": "Berlin",
+      "locationStadium": "Olympiastadion"
+    },
+    "numberOfViewers": 70091
+  }
+]

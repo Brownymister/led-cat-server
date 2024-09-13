@@ -1,0 +1,43 @@
+[package]
+name = "led-cat-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.38.0", features = ["full"] }
+actix-web = "4"
+# openssl = { version = "0.10", features = ["vendored"] }
+futures = "0.3.30"
+rand = "0.8.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.113"
+sysinfo = "0.30.5"
+rpi-led-panel = "0.5.1"
+embedded-graphics = "0.8.1"
+argh = "0.1.12"
+chrono = "0.4.38"
+time="0.3.35"
+futures-util = "0.3.30"
+actix-multipart = "0.6.1"
+mime = "0.3.17"
+image = "0.24.8"
+log4rs = "1.3.0"
+log = "0.4.20"
+openssl = { version = "0.10", features = ["vendored"] }
+reqwest = "0.11.14"
+dotenv = "0.15.0"
+tinytga = "0.5.0"
+embedded-text = "0.7.2"
+
+[dependencies.uuid]
+version = "1.7.0"
+features = [
+    "v4",                # Lets you generate random UUIDs
+    "fast-rng",          # Use a faster (but still sufficiently random) RNG
+    "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]
+
+[profile.release]
+codegen-units = 1
