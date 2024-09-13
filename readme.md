@@ -21,7 +21,11 @@ scp -r target/arm-unknown-linux-gnueabihf/release/led-cat-server pi@[your_ip]:/h
 
 - [x] [bvg](https://v6.bvg.transport.rest/getting-started.html)
 - [x] [weatherKit](https://developer.apple.com/weatherkit/get-started/) bring your own api-key (included in apple developer account)
-- [ ] [deutsche Bahn opendata](https://data.deutschebahn.com/)
+- [x] [openstreetmap](https://www.openstreetmap.org)
+- [x] [Autobahn Info (autobahn gmbh)](https://verkehr.autobahn.de/)
+- [ ] [Radio Info](https://myonlineradio.de/)
+- [ ] [Fussball](https://api.openligadb.de/)
+- [ ] [DWD Pollen](https://opendata.dwd.de/climate_environment/health/alerts/s31fg.json)
 
 ## Server-API Documentation:
 
